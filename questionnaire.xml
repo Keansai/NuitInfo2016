@@ -1,0 +1,25 @@
+<start>
+<q1>Bonjour, je m'apelle SMOW, je suis là pour t'aider, mais pour commencer quel est ton nom?</q1>
+<nom></nom>
+<q2>Que recherches-tu?</q2>
+	<soins>
+		<qsoins>Tu viens pour toi ou pour quelqu'un d'autre</qsoins>
+			<moi> 
+				<qmoi>Comment te sens tu?</qmoi>
+			</moi>
+			<autre>
+				<qautre>Comment se sent-il?</qautre>
+			</autre>
+	</soins>
+	<famille>
+	</famille>
+	<contact>
+	</contact>
+	<acceuil>
+	</acceuil>
+	<administratif>
+	</administratif>
+	<autre>
+	</autre>
+
+</start>
