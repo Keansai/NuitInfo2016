@@ -6,9 +6,47 @@
 		<qsoins>Tu viens pour toi ou pour quelqu'un d'autre</qsoins>
 			<moi> 
 				<qmoi>Comment te sens tu?</qmoi>
+					<bien></bien>
+					<moyen>
+						<qmoyen> Ah mince ! Tu veux en parler</qmoyen>
+							<poui></poui>
+							<pnon></pnon>
+					</moyen>
+					<mal>
+						<qmal> Voici une echelle de douleur ou de malaise plus tu vas vers la droite plus tu te sent mal. Note ta douleur. Et voici une echelle de temps, depuis combien de temps la douleur ou le malaise s'est déclaré ?</qmal>
+							<rmal>Je te met en contact avec un spécialiste, c'est urgent. Tu restes cependant anonyme et c'est gratuit</rmal>
+							<rmoyen>Je vais te poser des questions complémentaires : As-tu de la fièvre ?</rmoyen>
+								<rmoui></rmoui> 
+								<rmnon>
+									<qrmnon>Peux-tu te déplacer ?</qrmnon>
+										<qrmnnon></qrmnnon>
+										<qrmnoui>
+											<qrmnoq>Perds-tu du sang ?</qrmnoq>
+												<qrmnoqoui></qrmnoqoui>
+												<qrmnoqnon>
+													<qrmnoqnq>Y a t'il quelque chose d'anormal, de différents par rapport à d'habitude ?</qrmnoqnq>
+														<ouverte></ouverte>
+												</qrmnoqnon>
+										</qrmnoui>
+								</rmnon>
+							<rpetit>Voici une echelle de temps; Plus tu vas vers la droite, plus ça fait longtemps</rpetit>
+								<rpl>C'est sans doute viral, ça passera sans doute trés vite, désires-tu tout de même en parler à un spécialiste ?</rpl>
+									<rcontactspé></rcontactspé>
+									<rpplnon>Rentres ici ce que tu ressent pour que je puisses te proposes des diagnostics et solutions à ta douleur<rpplnon>
+										<rpplnouv></rpplnouv>
+								<rjourslongtemps>Ce n'est sans doute pas grave, mais je peux te mettre en contact avec un spécialiste pour verifier si tu le désires ?<rjourslongtemps>
+									<rjloui></rjloui>
+									<rjlnon>
+										<rjlnq>Rentres ici ce que tu ressent pour que je puisses te proposes des diagnostics et solutions à ta douleur</rjlnq>
+									</rjlnon>
+					</mal>
 			</moi>
 			<autre>
 				<qautre>Comment se sent-il?</qautre>
+					<bien></bien>
+					<moyen>
+					</moyen>
+					<mal></mal>
 			</autre>
 	</soins>
 	<famille>
