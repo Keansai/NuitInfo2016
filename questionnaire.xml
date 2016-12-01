@@ -32,9 +32,9 @@
 							<rpetit>Voici une echelle de temps; Plus tu vas vers la droite, plus ça fait longtemps</rpetit>
 								<rpl>C'est sans doute viral, ça passera sans doute trés vite, désires-tu tout de même en parler à un spécialiste ?</rpl>
 									<rcontactspé></rcontactspé>
-									<rpplnon>Rentres ici ce que tu ressent pour que je puisses te proposes des diagnostics et solutions à ta douleur<rpplnon>
+									<rpplnon>Rentres ici ce que tu ressent pour que je puisses te proposes des diagnostics et solutions à ta douleur</rpplnon>
 										<rpplnouv></rpplnouv>
-								<rjourslongtemps>Ce n'est sans doute pas grave, mais je peux te mettre en contact avec un spécialiste pour verifier si tu le désires ?<rjourslongtemps>
+								<rjourslongtemps>Ce n'est sans doute pas grave, mais je peux te mettre en contact avec un spécialiste pour verifier si tu le désires ?</rjourslongtemps>
 									<rjloui></rjloui>
 									<rjlnon>
 										<rjlnq>Rentres ici ce que tu ressent pour que je puisses te proposes des diagnostics et solutions à ta douleur</rjlnq>
@@ -42,11 +42,40 @@
 					</mal>
 			</moi>
 			<autre>
-				<qautre>Comment se sent-il?</qautre>
-					<bien></bien>
-					<moyen>
-					</moyen>
-					<mal></mal>
+				<abien></abien>
+					<amoyen>
+						<aqmoyen> Ah mince ! Tu veux en parler</aqmoyen>
+							<apoui></apoui>
+							<apnon></apnon>
+					</amoyen>
+					<amal>
+						<aqmal> Voici une echelle de douleur ou de malaise plus tu vas vers la droite plus il se sent mal. Note sa douleur. Et voici une echelle de temps, depuis combien de temps la douleur ou le malaise s'est déclaré ?</aqmal>
+							<armal>Je te met en contact avec un spécialiste, c'est urgent. Tu restes cependant anonyme et c'est gratuit</armal>
+							<armoyen>Je vais te poser des questions complémentaires : A-t'il de la fièvre ?</armoyen>
+								<armoui></armoui> 
+								<armnon>
+									<aqrmnon>Peut-il te déplacer ?</aqrmnon>
+										<aqrmnnon></aqrmnnon>
+										<aqrmnoui>
+											<aqrmnoq>Perd-il du sang ?</aqrmnoq>
+												<aqrmnoqoui></aqrmnoqoui>
+												<aqrmnoqnon>
+													<aqrmnoqnq>Y a t'il quelque chose d'anormal, de différents par rapport à d'habitude ?</aqrmnoqnq>
+														<aouverte></aouverte>
+												</aqrmnoqnon>
+										</aqrmnoui>
+								</armnon>
+							<arpetit>Voici une echelle de temps; Plus tu vas vers la droite, plus ça fait longtemps</arpetit>
+								<arpl>C'est sans doute viral, ça passera sans doute trés vite, désires-il tout de même en parler à un spécialiste ?</arpl>
+									<arcontactspé></arcontactspé>
+									<arpplnon>Rentres ici ce qu'il ressent pour que je puisses te proposes des diagnostics et solutions à ta douleur</arpplnon>
+										<arpplnouv></arpplnouv>
+								<arjourslongtemps>Ce n'est sans doute pas grave, mais je peux te mettre en contact avec un spécialiste pour verifier si tu le désires ?<arjourslongtemps>
+									<arjloui></arjloui>
+									<arjlnon>
+										<arjlnq>Rentres ici ce qu'il ressent pour que je puisses te proposes des diagnostics et solutions à ta douleur</arjlnq>
+									</arjlnon>
+					</amal>
 			</autre>
 	</soins>
 	<famille>
