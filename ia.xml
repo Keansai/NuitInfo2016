@@ -15,10 +15,21 @@
 <securite>
 </securite>
 <information>
+	<annuaire></annuaire>
+	<centre></centre>
+	<assistance></assistance>
+	<transport></transport>
 </information>
 <hygiene>
+	<eau></eau>
+	<toilette></toilette>
+	<nourriture></nourriture>
 </hygiene>
 <confort>
+	<logement></logement>
+	<vetement></vetement>
 </confort>
 <administrative>
+	<mairie></mairie>
+	<association></association>
 </administrative>
